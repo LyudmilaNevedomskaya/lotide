@@ -10,7 +10,7 @@ const eqArrays = function(arr1, arr2) {
     bool = false;
   }
   if (bool) {
-    console.log(`✅✅✅ Assertion Passed: ${arr1} === ${arr2}`)
+    console.log(`✅✅✅ Assertion Passed: ${arr1} === ${arr2}`);
   } else {
     console.log(`⛔⛔⛔ Assertion Failed: ${arr1} !== ${arr2}`);
   }
