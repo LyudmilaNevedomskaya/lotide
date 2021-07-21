@@ -13,7 +13,7 @@ const countOnly = function(allItems, itemsToCount) {
     }
   } return result;
 
-}
+};
 
 const firstNames = [
   "Karl",
