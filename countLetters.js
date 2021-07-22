@@ -14,4 +14,5 @@ const countLetters = function(sentence) {
 
 };
 
-countLetters('lighthouse in the house');
+//countLetters('lighthouse in the house');
+countLetters('hello');
