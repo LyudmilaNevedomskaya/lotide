@@ -9,7 +9,12 @@ const eqArrays = function(arr1, arr2) {
   if (count !== arr1.length) {
     bool = false;
   }
-  console.log(arr1, arr2, bool);
+  // console.log(arr1, arr2, bool);
+  // console.log(bool);
+  return bool;
 };
 
-eqArrays(['1', '2', '4'], ['1', '2', 4]);
+// eqArrays(['1', '2', '4'], ['1', '2', 4]);
+// eqArrays(['1', '2', '4'], ['1', '2', '4']);
+
+module.exports = eqArrays;
