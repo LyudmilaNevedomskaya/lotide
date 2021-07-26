@@ -14,6 +14,8 @@ const middle = function(array) {
   } return result;
 };
 
-console.log(middle([1, 3]));
-console.log(middle([2]));
-console.log(middle([1, 2, 3, 4, 5, 6]));
+// console.log(middle([1, 3]));
+// console.log(middle([2]));
+// console.log(middle([1, 2, 3, 4, 5, 6]));
+
+module.exports = middle;
