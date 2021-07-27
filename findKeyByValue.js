@@ -18,3 +18,5 @@ const bestTVShowsByGenre = {
 
 
 console.log(findKeyByValue(bestTVShowsByGenre, "Brooklyn Nine-Nine"));
+
+module.exports = findKeyByValue;

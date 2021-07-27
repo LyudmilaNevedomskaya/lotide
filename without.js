@@ -6,6 +6,7 @@ const without = function(source, itemsToRemove) {
       arrayWithoutItemsToRemove.push(source[i]);
     }
   } console.log(arrayWithoutItemsToRemove);
+  return arrayWithoutItemsToRemove;
 
 };
 
@@ -13,3 +14,5 @@ const without = function(source, itemsToRemove) {
 
 without(["1", "2", "3"], [1, 2, "3"]);
 without([1, 2, 3], [1]);
+
+module.exports = without;
