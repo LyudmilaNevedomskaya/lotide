@@ -19,7 +19,5 @@ const eqArrays = function(arr1, arr2) {
 // eqArrays(['1', '2', '4'], ['1', '2', 4]);
 // eqArrays(['1', '2', '4'], ['1', '2', '4']);
 
-module.exports = {
-  eqArrays: eqArrays,
-  assertEqual: assertEqual
-}
+module.exports = eqArrays;
+
